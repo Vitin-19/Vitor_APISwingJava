@@ -1,6 +1,6 @@
 # Vitor_APISwingJava
 
-This respository is a school activity to learn how to build GUI applications with Java. It's a simple desktop register app. You just need to fill the fields with your name, e-mail, age and gender and after click in "Cadastrar" to register. <B>NOTE: All of that information will not be storaged in a database because it is just a prototype.</B>
+This respository is a school activity to learn how to build GUI applications with Java. It's a simple desktop register app. You just need to fill the fields with your name, e-mail, age and gender and after, click in "Cadastrar" to register. <B>NOTE: All of that information will not be storaged in a database because it is just a prototype.</B>
 
 # Technologies
 
