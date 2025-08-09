@@ -91,7 +91,7 @@ public class CadastroUsuario {
                 String menssagem = "Usuário cadastrado com sucesso\nNome: " + nome + "\n" + "E-mail: " + email + "\n" + "Idade: " + idade + "\n" + "Gênero: " + genero;
 
                 // Mostra a menssagem
-                JOptionPane.showMessageDialog(null,menssagem,"menssagem", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(null,menssagem,"Menssagem", JOptionPane.INFORMATION_MESSAGE);
             };
         });
         
