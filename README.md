@@ -12,7 +12,7 @@ This respository is a school activity to learn how to build GUI applications wit
     <li>Register user;
     <li>Clean all fields;
     <li>E-mail validation;
-    <li>Age validation;
+    <li>Age validation.
 </ul>
 
 # Running the app
