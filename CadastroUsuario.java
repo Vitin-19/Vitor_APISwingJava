@@ -64,7 +64,7 @@ public class CadastroUsuario {
 
                 //Pega os dados dos inputs
                 String nome = inputNome.getText();
-                String email = inputEmail.getText();
+                String email = inputEmail.getText().toLowerCase();
                 String idade = inputIdade.getText();
                 String genero;
 
