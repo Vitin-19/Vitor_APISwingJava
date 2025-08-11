@@ -66,7 +66,15 @@ public class CadastroUsuario {
                 String nome = inputNome.getText();
                 String email = inputEmail.getText();
                 String idade = inputIdade.getText();
-                String genero = generos.getSelection().getActionCommand();
+                String genero;
+
+                // try catch para verificar se o usuário selecionou o gênero
+                try{
+                    genero = generos.getSelection().getActionCommand();
+                }catch(Exception e){
+                    JOptionPane.showMessageDialog(null, "Todos os campos devem estar preeenchidos!", "Erro", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
 
                 // Verifica se todos os campos foram preenchidos
                 if (nome.isEmpty() || email.isEmpty() || idade.isEmpty()){ 
@@ -102,6 +110,7 @@ public class CadastroUsuario {
                 inputNome.setText(null);
                 inputEmail.setText(null);
                 inputIdade.setText(null);
+                generos.clearSelection();
             };
         });
 
